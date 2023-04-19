@@ -22,6 +22,10 @@ secrets:
   super_secret: default_super_secret
 spec_version: '2.0'
 system_packages: []
+external_data:
+  - url: https://s3.console.aws.amazon.com/s3/object/baseten-public-models-test?region=us-west-2&prefix=dvc/09/c6ad50c89497979e7dc6ea1d00887e
+    backend: http_public
+    local_data_path: test_blob
 train:
   resources:
     cpu: 500m
