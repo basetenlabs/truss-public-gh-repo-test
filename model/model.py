@@ -4,6 +4,10 @@ from typing import Dict, List
 class Model:
     def __init__(self, **kwargs) -> None:
         self._data_dir = kwargs["data_dir"]
+        if (self._data_dir / 'test_blob'):
+            print('External blob found')
+        else:
+            print('External blob not found')
         self._config = kwargs["config"]
         self._model = None
 
