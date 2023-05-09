@@ -8,7 +8,10 @@ live_reload: false
 model_class_filename: model.py
 model_class_name: Model
 model_framework: custom
-model_metadata: {}
+model_metadata:
+  pretty_name: Baseten Test Model
+  tags:
+  - text-generation
 model_module_dir: model
 model_name: null
 model_type: custom
