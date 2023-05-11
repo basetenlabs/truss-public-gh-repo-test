@@ -10,6 +10,8 @@ model_class_name: Model
 model_framework: custom
 model_metadata:
   pretty_name: Baseten Test Model
+  avatar_url: https://example.com/some/avatar/url
+  cover_image_url: https://example.com/some/avatar/url
   tags:
   - text-generation
 model_module_dir: model
