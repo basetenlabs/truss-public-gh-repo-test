@@ -15,7 +15,7 @@ model_metadata:
   tags:
   - text-generation
 model_module_dir: model
-model_name: null
+model_name: "Baseten Test Model"
 model_type: custom
 python_version: py39
 requirements: []
