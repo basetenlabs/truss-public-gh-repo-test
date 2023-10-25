@@ -7,7 +7,6 @@ input_type: Any
 live_reload: false
 model_class_filename: model.py
 model_class_name: Model
-model_framework: custom
 model_metadata:
   example_model_input: {"a": "b", "c": True}
   pretty_name: Baseten Test Model
